@@ -4,7 +4,8 @@
 
 ## GitHub Pages
 
-網站網址：部署 GitHub Pages 後補上。
+網站網址：[https://paijiping.github.io/2026_-/](https://paijiping.github.io/2026_-/)
+GitHub Repo：[paijiping/2026_-](https://github.com/paijiping/2026_-)
 
 ## 報名資料試算表
 
