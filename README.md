@@ -4,8 +4,8 @@
 
 ## GitHub Pages
 
-網站網址：[https://paijiping.github.io/2026_-/](https://paijiping.github.io/2026_-/)
-GitHub Repo：[paijiping/2026_-](https://github.com/paijiping/2026_-)
+網站網址：[https://paijiping.github.io/2026_active/](https://paijiping.github.io/2026_active/)
+GitHub Repo：[paijiping/2026_active](https://github.com/paijiping/2026_active)
 
 ## 報名資料試算表
 
