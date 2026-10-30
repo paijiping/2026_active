@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f4e9" />
+    <meta name="description" content="數位科技公司員工旅遊活動報名" />
+    <title>數位科技公司員工旅遊</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="event-page">
+      <header class="title-row">
+        <p class="eyebrow"><span class="sun-mark" aria-hidden="true"></span> COMPANY DAY TRIP <span class="year">2026</span></p>
+        <h1>數位科技公司<br class="mobile-break" />員工旅遊</h1>
+        <p class="title-note">把日常切換成山林模式。</p>
+      </header>
+
+      <section class="cover-row" aria-label="活動主視覺">
+        <img src="cover.jpg" alt="台中戶外踏青活動的自然風景" />
+        <span class="cover-label">TAICHUNG · OUTDOOR ESCAPE</span>
+      </section>
+
+      <section class="details-row" aria-label="活動內容與報名表單">
+        <article class="event-copy">
+          <p class="section-kicker">A DAY OUT, TOGETHER</p>
+          <h2>山裡見，<br />把步調放慢一點。</h2>
+          <p class="description">走出城市，擁抱大自然！邀請大家一起來台中戶外踏青，漫步山林步道、欣賞沿途美景，享受清新空氣與悠閒時光，結交新朋友，體驗健康又充滿活力的戶外生活！</p>
+          <div class="detail-stamp" aria-label="活動地點：台中戶外踏青">
+            <span class="stamp-dot" aria-hidden="true"></span>
+            <span>台中戶外踏青</span>
+            <span class="stamp-divider" aria-hidden="true"></span>
+            <span>一起出發</span>
+          </div>
+        </article>
+
+        <section class="form-panel" aria-labelledby="form-title">
+          <div class="form-heading">
+            <div>
+              <p class="section-kicker">SAVE YOUR SPOT</p>
+              <h2 id="form-title">報名參加</h2>
+            </div>
+            <span class="form-index" aria-hidden="true">01</span>
+          </div>
+          <form id="registration-form">
+            <div class="field-grid">
+              <label class="field">
+                <span>姓名 <b aria-hidden="true">*</b></span>
+                <input name="name" autocomplete="name" placeholder="怎麼稱呼你？" required />
+              </label>
+              <label class="field">
+                <span>Email <b aria-hidden="true">*</b></span>
+                <input name="email" type="email" autocomplete="email" placeholder="name@company.com" required />
+              </label>
+              <label class="field">
+                <span>單位</span>
+                <input name="department" autocomplete="organization" placeholder="例如：產品部" />
+              </label>
+              <label class="field">
+                <span>電話 <b aria-hidden="true">*</b></span>
+                <input name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="請輸入聯絡電話" required />
+              </label>
+              <label class="field field-wide">
+                <span>職稱</span>
+                <input name="title" autocomplete="organization-title" placeholder="例如：設計師" />
+              </label>
+            </div>
+            <button type="submit" class="submit-button">
+              <span>送出報名</span>
+              <span class="button-arrow" aria-hidden="true">↗</span>
+            </button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            <p class="required-note"><b aria-hidden="true">*</b> 為必填欄位</p>
+          </form>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
